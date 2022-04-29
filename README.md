@@ -5,7 +5,7 @@ Portfólio para projetos de visualização de dados
 
 ## Projeto pratica_cap02
 
-Durante a última aula, conclusão, do capítulo 2 do curso SQL para Data Science da Formação Analista de dados da Data Science Academy. O professor sugeriu a criação de um dashboard com outros dados.
+Durante a última aula, conclusão, do capítulo 2 do curso Microsoft Power BI Para Data Science da Data Science Academy. O professor sugeriu a criação de um dashboard com outros dados.
 
 ## Sobre
 
