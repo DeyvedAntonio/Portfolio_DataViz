@@ -1,4 +1,6 @@
 # Portfolio_DataViz
+[![](https://img.shields.io/github/license/deyvedantonio/readme_atrativo)](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/LICENSE)
+
 Portfólio para projetos de visualização de dados
 
 ## Projeto pratica_cap02
@@ -19,12 +21,13 @@ Além disso o CEO quer saber se as vendas estão acima ou abaixo da média.
 
 O relatório foi desenvolvido no Power BI sem utilização de funções, linguagem M ou DAX. Foi utilizado visualizações nativas do Power BI desktop e quatro tipos de filtros para melhorar a visualização de informações específicas no dashboard. Existe um plano de fundo para melhorar a visibilidades do usuário.
 
-O dashboard está disponível para visualização [Acesse aqui](https://app.powerbi.com/links/MQFBWaVCH_?ctid=310f534b-8485-4572-9821-a0561786d5cb&pbi_source=linkShare).
+O dashboard está disponível para visualização [aqui](https://app.powerbi.com/links/MQFBWaVCH_?ctid=310f534b-8485-4572-9821-a0561786d5cb&pbi_source=linkShare).
 
 ## Layout dos projetos
 
 ![image](https://user-images.githubusercontent.com/26858993/165411771-dc2156c7-cc4b-4ec2-a0a5-a552ea4f24c2.png)
 
-## Requisito
+## Requisitos
 Power BI desktop - caso queira abrir o arquivo .pbix
+
 Excel - para abrir as bases de dados
