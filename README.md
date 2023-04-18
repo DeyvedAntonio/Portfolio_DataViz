@@ -9,47 +9,54 @@ A empresa Sistemas Lotus deseja desenvolver uma ferramenta para acompanhar a cot
 
 ## Sobre
 
-Os dados necessários são Disponibilizados pelo Portal de dados abertos do Banco Central por meio da [API](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/aplicacao#!/recursos/Moedas) e a documentação sobre a API é possível encontrar [aqui](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/documentacao). O Portal de Dados Abertos do Banco Central é um catálogo de dados abertos, e a partir dele é possível encontrar os locais onde os dados podem ser acessados.
+Os dados necessários são disponibilizados pelo Portal de dados abertos do Banco Central por meio da [API](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/aplicacao#!/recursos/Moedas) e a documentação sobre a API é possível encontrar [aqui](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/documentacao). O Portal de Dados Abertos do Banco Central é um catálogo de dados abertos, e a partir dele é possível encontrar os locais onde os dados podem ser acessados.
 
-Os códigos dos recursos disponibilizados são: Moedas, CotacaoDolarDia, CotacaoDolarPeriodo, CotacaoMoedaDia, CotacaoMoedaPeriodo.
 
-Os parâmetros são: codigoMoeda, dataInicialCotacao, dataFinalCotacao, $format (formato de retorno que pode ser: json, csv, xml e html) e $select (Propriedades que serão retornadas).
+### Etapas desenvolvidas para resolver o problema
 
-As propriedades retornadas da API são: Cotação de compra, Cotação de venda, data e hora da cotação.
+- Entender os dados:
 
-Endereço padrão - https ://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/Moedas?$format=json&[Outros Parâmetros].
+  * É necessário entender os parâmetros para buscar os dados na API de forma correta.
+  * Os códigos dos recursos disponibilizados são: Moedas, CotacaoDolarDia, CotacaoDolarPeriodo, CotacaoMoedaDia, CotacaoMoedaPeriodo.
+  * Os parâmetros são: codigoMoeda, dataInicialCotacao, dataFinalCotacao, $format (formato de retorno que pode ser: json, csv, xml e html) e $select (Propriedades que serão retornadas).
+  * As propriedades retornadas da API são: Cotação de compra, Cotação de venda, data e hora da cotação.
+  * Endereço padrão - https ://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/Moedas?$format=json&[Outros Parâmetros].
 
-Exemplo de URL de pesquisa:
-<div>
-https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodoFechamento(codigoMoeda=@codigoMoeda,dataInicialCotacao=@dataInicialCotacao,dataFinalCotacao=@dataFinalCotacao)?@codigoMoeda=''&@dataInicialCotacao=''&@dataFinalCotacao=''&$format=text/csv&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao
-</div>
+- Determinar período de cotação dos dados:
+
+  * Um intervalo de 12 meses.
+
+- Determinar o nível da granularidade dos dados:
+
+  * Uma vez por dia.
 
 ## Layout
+
 <div align="left">
 <img src="https://user-images.githubusercontent.com/26858993/159814407-54748ee8-5f67-410f-b36f-a5909212f931.png" width="500px" />
 </div>
 
-
 ## Tecnologias utilizadas
 
 ### Feramentas
-- Power BI Desktop
-- API do BACEN
 
-### Subdivisão 2
-- tecnologia 2.1
-- tecnologia 2.2
+- Power BI Desktop (é um aplicativo gratuito que pode ser instalado no computador local e que permite que você se conecte aos seus dados, transforme-os e visualize-os.)
+- API (expressão inglesa Application Programming Interface que, traduzida para o português, pode ser compreendida como uma interface de programação de aplicação)
+
+### Tipo de arquivos
+
+- CSV (são arquivos de texto de formato regulamentado pelo RFC 4180, que faz uma ordenação de bytes ou um formato de terminador de linha, separando valores com vírgulas.)
 
 ## Competências
-Informar quais competências.
+
+- Extração de dados por meio de URL;
+- Transformação de dados;
+- Carregar dados;
+- Exibição dos resultados por meio de gráficos.
 
 ## Técnicas utilizadas
 
-## Integrações
-quais bibliotecas foram utilizadas para integração.
-
-## Escopo da aplicação (opcional)
-Casos de usos, cadastros.
+Processos de ETL (Extrair, transformar e carregar é o processo que as organizações orientadas a dados usam para coletar dados de várias fontes e reuni-los para dar suporte à descoberta, à geração de relatórios, à análise e à tomada de decisões).
 
 ## Agradecimentos
 
@@ -63,6 +70,6 @@ Muito Obrigado pela dedicação em fornecer materiais de qualidade.
 ## Autor
 Deyved Antonio
 
-## Redes Sociais
+## Contatos
 
 [Linkedin](https://www.linkedin.com/in/deyved-antonio-161216122/), [Medium](https://medium.com/@deyved.antonio) e [e-mail](deyved.antonio@gmail.com).
