@@ -11,7 +11,6 @@ A empresa Sistemas Lotus deseja desenvolver uma ferramenta para acompanhar a cot
 
 Os dados necessários são disponibilizados pelo Portal de dados abertos do Banco Central por meio da [API](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/aplicacao#!/recursos/Moedas) e a documentação sobre a API é possível encontrar [aqui](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/documentacao). O Portal de Dados Abertos do Banco Central é um catálogo de dados abertos, e a partir dele é possível encontrar os locais onde os dados podem ser acessados.
 
-
 ### Etapas desenvolvidas para resolver o problema
 
 - Entender os dados:
@@ -29,6 +28,12 @@ Os dados necessários são disponibilizados pelo Portal de dados abertos do Banc
 - Determinar o nível da granularidade dos dados:
 
   * Uma vez por dia.
+
+- Pipeline de Dados:
+
+  * Criação da URL para extração dos dados na API;
+  * Formato de retorno será em CSV;
+  * Transfomação e carregamento será direto no Power BI.
 
 ## Layout
 
