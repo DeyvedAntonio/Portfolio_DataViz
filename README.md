@@ -1,11 +1,11 @@
 # Portfolio_DataViz
 [![](https://img.shields.io/github/license/deyvedantonio/readme_atrativo)](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/LICENSE)
 
-Portfólio para projetos de visualização de dados
+> Portfólio para projetos de visualização de dados
 
 ## Projeto cotação de moedas
 
-A empresa Sistemas Lotus deseja desenvolver uma ferramenta para acompanhar a cotação de três moedas - Dólar (US$), Euro (€$) e Dólar Canadense (CAD$) - pelo portal de dados abertos do Banco Central do Brasil (BACEN).
+A empresa Sistemas Lotus deseja uma ferramenta para acompanhar a cotação de três moedas - Dólar (US$), Euro (€$) e Dólar Canadense (CAD$) - pelo portal de dados abertos do Banco Central do Brasil (BACEN).
 
 ## Sobre
 
@@ -54,14 +54,15 @@ Os dados necessários são disponibilizados pelo Portal de dados abertos do Banc
 
 ## Competências
 
-- Extração de dados por meio de URL;
+- Extração de dados por meio de API;
 - Transformação de dados;
 - Carregar dados;
-- Exibição dos resultados por meio de gráficos.
+- Exibição dos resultados por meio de relatórios.
 
 ## Técnicas utilizadas
 
-Processos de ETL (Extrair, transformar e carregar é o processo que as organizações orientadas a dados usam para coletar dados de várias fontes e reuni-los para dar suporte à descoberta, à geração de relatórios, à análise e à tomada de decisões).
+- Processos de ETL (Extrair, transformar e carregar é o processo que as organizações orientadas a dados usam para coletar dados de várias fontes e reuni-los para dar suporte à descoberta, à geração de relatórios, à análise e à tomada de decisões);
+- Storytelling (é a arte de contar histórias usando técnicas inspiradas em roteiristas e escritores para transmitir uma mensagem de forma inesquecível).
 
 ## Agradecimentos
 
@@ -75,6 +76,6 @@ Muito Obrigado pela dedicação em fornecer materiais de qualidade.
 ## Autor
 Deyved Antonio
 
-## Contatos
+## Redes sociais e Contatos
 
 [Linkedin](https://www.linkedin.com/in/deyved-antonio-161216122/), [Medium](https://medium.com/@deyved.antonio) e [e-mail](deyved.antonio@gmail.com).
