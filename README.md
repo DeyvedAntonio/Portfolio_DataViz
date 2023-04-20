@@ -66,7 +66,7 @@ Os dados necessários são disponibilizados pelo Portal de dados abertos do Banc
 ## Layout
 
  <div align="center">
- <img src="https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_resultado.png" width="500px" />
+ <img src="https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/layout_0.0.1.png" width="500px" />
  </div>
 
 ## Tecnologias utilizadas
