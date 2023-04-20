@@ -18,28 +18,56 @@ Os dados necessários são disponibilizados pelo Portal de dados abertos do Banc
   * É necessário entender os parâmetros para buscar os dados na API de forma correta.
   * Os códigos dos recursos disponibilizados são: Moedas, CotacaoDolarDia, CotacaoDolarPeriodo, CotacaoMoedaDia, CotacaoMoedaPeriodo.
   * Os parâmetros são: codigoMoeda, dataInicialCotacao, dataFinalCotacao, $format (formato de retorno que pode ser: json, csv, xml e html) e $select (Propriedades que serão retornadas).
-  * As propriedades retornadas da API são: Cotação de compra, Cotação de venda, data e hora da cotação.
+  * As propriedades retornadas da API são: Cotação de compra, Cotação de venda, data e hora da cotação e tipo de boletim (que pode ser: abertura, intermediário e fechamento).
   * Endereço padrão - https ://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/Moedas?$format=json&[Outros Parâmetros].
 
 - Determinar período de cotação dos dados:
 
-  * Um intervalo de 12 meses.
+  * Um intervalo de 12 meses. formato MM-DD-AAAA
+  * Data inicial cotação: 03/31/2022
+  * Data final cotação: 03/31/2023
 
 - Determinar o nível da granularidade dos dados:
 
   * Uma vez por dia.
+  * tipo de boletim: fechamento
 
 - Pipeline de Dados:
 
   * Criação da URL para extração dos dados na API;
   * Formato de retorno será em CSV;
   * Transfomação e carregamento será direto no Power BI.
+ 
+- URL para extração de dado na API:
+  * Moeda Euro:
+    <p>
+    https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodo(moeda=@moeda,dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@moeda='EUR'&@dataInicial='03-03-2022'&@dataFinalCotacao='03-31-2023'&$top=10000&$format=text/csv&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao,tipoBoletim
+    </>>
 
+  * Extração dos dados na API
+
+    <div align="center">
+    <img src="https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_url.png" width="500px" />
+    </div>
+    <div align="center">
+    <img src="https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_access.png" width="500px" />
+    </div>
+    <div align="center">
+    <img src="https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_resultado.png" width="500px" />
+    </div>
+
+ * Transfomações aplicadas nos dados
+
+    - Renomear a base de dados
+    - Converter as colunas cotacaoCompra e cotacaoVenda do tipo decimal para o tipo monetário;
+    - Filtrar a coluna tipoBoletim por fechamento;
+    - Excluir a coluna tipoBoletim;
+ 
 ## Layout
 
-<div align="left">
-<img src="https://user-images.githubusercontent.com/26858993/159814407-54748ee8-5f67-410f-b36f-a5909212f931.png" width="500px" />
-</div>
+ <div align="center">
+ <img src="https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_resultado.png" width="500px" />
+ </div>
 
 ## Tecnologias utilizadas
 
