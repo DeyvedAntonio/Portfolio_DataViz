@@ -46,9 +46,9 @@ Os dados necessários são disponibilizados pelo Portal de dados abertos do Banc
 
   * Extração dos dados na API
 
-    <div align="center">
-    <img src="https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_url.png" width="500px" />
-    </div>
+    
+    ![Figura 1 - URL de extração de dados na API](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_url.png)
+    
     <div align="center">
     <img src="https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_access.png" width="500px" />
     </div>
