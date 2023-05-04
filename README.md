@@ -2,8 +2,9 @@
 [![](https://img.shields.io/github/license/deyvedantonio/readme_atrativo)](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/LICENSE)
 
 > Portfólio para projetos de visualização de dados
-> Os projetos desenvolvidos: 
- - [Cotação de moedas](https://github.com/DeyvedAntonio/Portfolio_DataViz#Projeto cotação de moedas)
+
+## Os projetos desenvolvidos: 
+ - [Cotação de moedas](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/README.md#projeto-cota%C3%A7%C3%A3o-de-moedas)
 
 # Projeto cotação de moedas
 
