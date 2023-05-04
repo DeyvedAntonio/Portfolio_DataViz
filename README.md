@@ -42,16 +42,16 @@ Os dados necessários são disponibilizados pelo Portal de dados abertos do Banc
   * Moeda Euro:
     <p>
     https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodo(moeda=@moeda,dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@moeda='EUR'&@dataInicial='03-03-2022'&@dataFinalCotacao='03-31-2023'&$top=10000&$format=text/csv&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao,tipoBoletim
-    </>>
+    </p>
 
  
   * Extração dos dados na API
 
     ![Figura 1 - URL de extração de dados na API](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_url.png)
     
-    ![Figura 1 - URL de extração de dados na API](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_access.png)
+    ![Figura 2 - Tipo de requisição](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_access.png)
     
-    ![Figura 1 - URL de extração de dados na API](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_resultado.png)
+    ![Figura 3 - Dados retornados](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_resultado.png)
  
  
  * Transfomações aplicadas nos dados
@@ -63,7 +63,13 @@ Os dados necessários são disponibilizados pelo Portal de dados abertos do Banc
  
 ## Layout
 
- ![Figura 1 - URL de extração de dados na API](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_url.png)
+ ![Figura 4 - Home](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/HOME.png)
+ 
+ ![Figura 5 - Home](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/DOLAR.png)
+ 
+ ![Figura 6 - Home](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/EURO.png)
+ 
+ ![Figura 7 - Home](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/DOLAR_CANADENSE.png)
 
 ## Tecnologias utilizadas
 
