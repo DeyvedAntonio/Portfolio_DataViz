@@ -5,7 +5,7 @@
 
 ## Projeto cotação de moedas
 
-A empresa Sistemas Lotus deseja uma ferramenta para acompanhar a cotação de três moedas - Dólar (US$), Euro (€$) e Dólar Canadense (CAD$) - pelo portal de dados abertos do Banco Central do Brasil (BACEN).
+A empresa Sistemas Lotus deseja uma ferramenta para avaliar o histórico das cotações de três moedas - Dólar (US$), Euro (€$) e Dólar Canadense (CAD$) - pelo portal de dados abertos do Banco Central do Brasil (BACEN).
 
 ## Sobre
 
@@ -44,18 +44,16 @@ Os dados necessários são disponibilizados pelo Portal de dados abertos do Banc
     https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodo(moeda=@moeda,dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@moeda='EUR'&@dataInicial='03-03-2022'&@dataFinalCotacao='03-31-2023'&$top=10000&$format=text/csv&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao,tipoBoletim
     </>>
 
+ 
   * Extração dos dados na API
 
-    
     ![Figura 1 - URL de extração de dados na API](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_url.png)
     
-    <div align="center">
-    <img src="https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_access.png" width="500px" />
-    </div>
-    <div align="center">
-    <img src="https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_resultado.png" width="500px" />
-    </div>
-
+    ![Figura 1 - URL de extração de dados na API](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_access.png)
+    
+    ![Figura 1 - URL de extração de dados na API](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_resultado.png)
+ 
+ 
  * Transfomações aplicadas nos dados
 
     - Renomear a base de dados
@@ -65,9 +63,7 @@ Os dados necessários são disponibilizados pelo Portal de dados abertos do Banc
  
 ## Layout
 
- <div align="center">
- <img src="https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/layout_0.0.1.png" width="500px" />
- </div>
+ ![Figura 1 - URL de extração de dados na API](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/Imagens/euro_url.png)
 
 ## Tecnologias utilizadas
 
