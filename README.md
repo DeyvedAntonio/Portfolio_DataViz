@@ -3,13 +3,18 @@
 
 > Portfólio para projetos de visualização de dados
 
-## Projeto cotação de moedas
+## Os projetos desenvolvidos: 
+ - [Cotação de moedas](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/README.md#projeto-cota%C3%A7%C3%A3o-de-moedas)
+
+# Projeto cotação de moedas
 
 A empresa Sistemas Lotus deseja uma ferramenta para avaliar o histórico das cotações de três moedas - Dólar (US$), Euro (€$) e Dólar Canadense (CAD$) - pelo portal de dados abertos do Banco Central do Brasil (BACEN).
 
 ## Sobre
 
 Os dados necessários são disponibilizados pelo Portal de dados abertos do Banco Central por meio da [API](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/aplicacao#!/recursos/Moedas) e a documentação sobre a API é possível encontrar [aqui](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/documentacao). O Portal de Dados Abertos do Banco Central é um catálogo de dados abertos, e a partir dele é possível encontrar os locais onde os dados podem ser acessados.
+
+> Link de acesso ao Dashboard: [Cotação de moedas](https://app.powerbi.com/groups/me/reports/752a8861-b1eb-4dbf-a18c-df90b43fc204?ctid=310f534b-8485-4572-9821-a0561786d5cb&pbi_source=linkShare&bookmarkGuid=82b31ecb-544d-4a41-aaac-4cdd92a47722)
 
 ### Etapas desenvolvidas para resolver o problema
 
