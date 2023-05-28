@@ -5,6 +5,7 @@
 
 ## Os projetos desenvolvidos: 
  - [Cotação de moedas](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/README.md#projeto-cota%C3%A7%C3%A3o-de-moedas)
+ - [Análise de vendas](https://github.com/DeyvedAntonio/Portfolio_DataViz/blob/main/README.md#projeto-Analise-de-vendas)
 
 # Projeto cotação de moedas
 
@@ -98,6 +99,30 @@ Os dados necessários são disponibilizados pelo Portal de dados abertos do Banc
 
 - Processos de ETL (Extrair, transformar e carregar é o processo que as organizações orientadas a dados usam para coletar dados de várias fontes e reuni-los para dar suporte à descoberta, à geração de relatórios, à análise e à tomada de decisões);
 - Storytelling (é a arte de contar histórias usando técnicas inspiradas em roteiristas e escritores para transmitir uma mensagem de forma inesquecível).
+
+# Projeto Analise de vendas
+
+## Sobre
+
+### Etapas desenvolvidas para resolver o problema
+
+## Layout
+
+## Tecnologias utilizadas
+
+### Feramentas
+- Power BI Desktop
+- Kaggle
+
+### Tipo de arquivos
+- CSV
+
+## Competências
+
+
+## Técnicas utilizadas
+
+
 
 ## Agradecimentos
 
